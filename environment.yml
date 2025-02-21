@@ -1,0 +1,15 @@
+name: doc-extract-service
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - conda-forge::uvicorn
+  - conda-forge::fastapi
+  - conda-forge::requests
+  - conda-forge::pydantic
+  - conda-forge::python-multipart
+  - conda-forge::python-dotenv
+  - pip
+  - pip:
+    - pydantic-settings>=2.0.3
